@@ -2,7 +2,13 @@
     margin: 0;
     height: 0;
 } */
-
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 .container {
     margin: 0 auto;
     max-width: 1320px;
@@ -24,7 +30,7 @@
 
 }
 
-.linkerNav a:hover {
+.linkerNav li:hover {
     font-weight: 400;
     transition: 0.2s;
 }
