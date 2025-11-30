@@ -1,0 +1,187 @@
+/* * {
+    margin: 0;
+    height: 0;
+} */
+
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.navFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif;
+}
+
+.linkerNav {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+
+.linkerNav a:hover {
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.text-red {
+    color: red;
+}
+
+/* Navbar */
+
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    font-family: "Ovo", serif;
+}
+
+.imageME {
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+}
+
+.hText1 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.hText2 {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.hWidth {
+    width: 847px;
+    margin: 0 auto;
+}
+
+.btn1 {
+    padding: 20px 30px;
+    border-radius: 30px;
+    background: #000;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Hero */
+
+
+/* about part */
+.about {
+    padding: 100px 0;
+}
+
+/* about part */
+
+/* Desktops */
+@media (max-width: 1280px) {}
+
+/*  For Tablets */
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 0;
+        text-align: center;
+        font-family: "Ovo", serif;
+    }
+
+    .imageME {
+        width: 158px;
+        height: 158px;
+        border-radius: 50%;
+    }
+
+    .hText1 {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .hText2 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .hWidth {
+        width: 583px;
+        margin: 0 auto;
+    }
+
+    .btn1 {
+        padding: 20px 30px;
+        border-radius: 30px;
+        background: #000;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+    .linkerNav {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        font-weight: 200;
+        cursor: pointer;
+    }
+
+    .namePlate {
+        font-size: 10px;
+    }
+
+    /* Hero  */
+    .hero {
+        padding: 100px 0;
+        text-align: center;
+        font-family: "Ovo", serif;
+    }
+
+    .imageME {
+        width: 158px;
+        height: 158px;
+        border-radius: 50%;
+    }
+
+    .hText1 {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .hText2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .hWidth {
+        width: 347px;
+        margin: 0 auto;
+    }
+
+    .btn1 {
+        padding: 20px 30px;
+        border-radius: 30px;
+        background: #000;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    /* Hero  */
+
+}
