@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
 </head>
@@ -20,7 +23,7 @@
             </div>
             <div class="">
                 <ul class="linkerNav">
-                    <li>About</li>
+                    <a href="#about"><li>About</li></a>
                     <li>Skills</li>
                     <li>Projects</li>
                     <li>Contact</li>
@@ -38,20 +41,59 @@
             <div class="hWidth">
                 <h1 class="hText2">Frontend web developer based in Bangladesh.</h1>
             </div>
-          <a href="">
-             <button class="btn1">Contact with me</button>
-          </a>
+            <a href="">
+                <button class="btn1">Contact with me</button>
+            </a>
         </div>
 
     </div>
     <!-- Hero section -->
 
     <!-- About me part -->
-     <div class="about">
+    <div class="about" id="about">
         <div class="container">
-            <h1>dugdioghd</h1>
+            <div class="aboutT1">
+                <p class="aboutP1">Introduction</p>
+                <p class="aboutP2">About me</p>
+            </div>
+            <!-- 2nd part -->
+            <div class="flexForAbout">
+                <div class="">
+                    <img class="photo2" src="images/hubert_gomes.jpg" alt="">
+                </div>
+                <div class="widthOfPinAbout">
+                    <p>
+                        Hey, I’m Hubert — a Frontend Developer passionate about crafting clean and responsive web apps.
+                        I enjoy turning ideas into smooth, user-friendly interfaces with modern tools and tech. Always
+                        curious and eager to learn, I keep pushing my skills to the next level. For me, it’s all about
+                        blending creativity with code to build experiences that stand out.</p>
+                    <div class="flexForSkills">
+                        <div class="borderForSkills">
+                            <i class="fa-solid fa-code sizeOfIcon"></i>
+                            <p class="skillsP1">Languages</p>
+                            <p class="skillsP2">HTML, CSS, JavaScript
+                                React Js, Next Js</p>
+                        </div>
+                        <div class="borderForSkills">
+                            <i class="fa-solid fa-graduation-cap sizeOfIcon"></i>
+                            <p class="skillsP1">Education</p>
+                            <p class="skillsP2">B.Tech in Computer Science
+                            </p>
+                        </div>
+                        <div class="borderForSkills">
+                            <i class="fa-solid fa-briefcase sizeOfIcon"></i>
+                            <p class="skillsP1">Projects</p>
+                            <p class="skillsP2">Built more than 3
+                                projects
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd part -->
         </div>
-     </div>
+    </div>
     <!-- About me part -->
 
 </body>
