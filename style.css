@@ -3,7 +3,7 @@
     height: 0;
 } */
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 ul,
@@ -17,7 +17,7 @@ a {
 
 .container {
     margin: 0 auto;
-    max-width: 1320px;
+    max-width: 1380px;
 }
 
 .bg1 {
@@ -267,6 +267,95 @@ a {
 
 /* Skills part */
 
+/* Projects part */
+.projectsHead {
+    text-align: center;
+    font-family: "Ovo", serif;
+}
+
+.proP1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.proP2 {
+    font-weight: 500;
+    font-size: 60px;
+
+}
+
+.proP3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #565656;
+}
+
+.showCase {
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.imgShowCase {
+    padding: 20px;
+    width: 386px;
+    height: 286px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 25px;
+}
+
+.optionInHover {
+    opacity: 0;
+    position: absolute;
+    width: 273px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.flexInside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgShowCase:hover .optionInHover {
+    opacity: 1;
+    bottom: 20px;
+    transition: 0.4s;
+}
+
+.showP1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.showP2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.boroText {
+    font-size: 30px;
+}
+
+.imageFit {
+    max-width: 100%;
+}
+
+/* Projects part */
+
 /* Desktops */
 @media (max-width: 1280px) {}
 
@@ -419,6 +508,18 @@ a {
     }
 
     /* About section */
+
+    /* Skill section  */
+    .showCase {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    /* Skill section  */
 }
 
 /* For Mobile */
@@ -600,7 +701,7 @@ a {
         font-size: 25px;
         font-weight: 400;
         line-height: 46px;
-         text-align: center;
+        text-align: center;
     }
 
     /* About section */
